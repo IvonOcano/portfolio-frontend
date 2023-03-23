@@ -1,0 +1,23 @@
+h5, .form-label{
+    color: black;
+    }
+    .modal-content{
+        margin: 5rem auto;
+        width: 75%;
+        padding: 2.5%;
+        background: white;
+        border-radius: 2.5rem;
+    }
+    .modal-content h5{
+        margin: 1rem;
+        text-align: center;
+    }
+    .modal-content .elemento label{
+        color: #fff;
+    }
+    .modal-content .elemento input{
+        width: 100%;
+        color: #fff;
+        background: transparent;
+        border: none;
+    }

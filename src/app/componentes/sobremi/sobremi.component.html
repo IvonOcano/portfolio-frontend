@@ -1,0 +1,19 @@
+  <!--Sobre mi-->
+   <section id="sobremi" class="about" *ngFor="let about of sobremis">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <img [src]="about.imagen" class="rounded-circle w-75" alt="foto perfil" title="...">
+        </div>
+        <div class="col-6 mt-3">
+          <div class="content">
+          <h1>Bienvenidos</h1>
+          <h2>Sobre mi</h2>
+          <h5> {{about.info}} </h5>
+        </div>
+        <div class="col-3 mt-3">
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>

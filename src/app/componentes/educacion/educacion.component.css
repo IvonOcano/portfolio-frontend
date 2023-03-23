@@ -1,0 +1,18 @@
+/*Educacion*/
+section.titulo h2, .cursos h2, .experiencia h2, .educacion h2, .datospersonales h2{
+    margin-top: 3rem;
+    text-align: left;
+}
+
+section.experiencia ul, .educacion ul, .cursos ul, .datospersonales ol{
+    flex-direction: column;
+    margin-left: 25%;
+    font-size: 20px;
+}
+
+section.titulo, .experiencia, .educacion, .cursos, .datospersonales, .skill{
+    
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.952);
+    margin-left: 2rem;
+    margin-right: 2rem;
+}

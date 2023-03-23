@@ -1,0 +1,36 @@
+/*Redes*/
+i.fa-brands.fa-facebook.fa-2xl,
+i.fa-brands.fa-instagram.fa-2xl,
+i.fa-brands.fa-square-github.fa-2xl,
+i.fa-brands.fa-linkedin.fa-2xl,
+i.fa-solid.fa-user-lock.fa-2xl,
+i.fa-solid.fa-user.fa-2xl
+{
+    color: #fff;
+    }
+i.fa-brands.fa-facebook.fa-2xl:hover{
+color: blue;
+}
+i.fa-brands.fa-square-github.fa-2xl:hover{
+color: #000;
+}
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    color: rgb(245, 37, 106);
+}
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color: rgb(29, 29, 160);
+}
+
+i.fa-solid.fa-user.fa-2xl:hover{
+    color: forestgreen;
+    
+}
+i.fa-solid.fa-user-lock.fa-2xl:hover{
+    color: forestgreen;
+}
+
+.list-group-item{
+    color: gray;
+    --bs-list-group-bg: transparent;
+    border: none;
+}

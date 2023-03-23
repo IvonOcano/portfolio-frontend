@@ -1,0 +1,151 @@
+{    "red": [
+                 {
+                    "id":1,
+                    "icono": "fa-brands fa-linkedin fa-2xl",
+                    "url": "https://www.linkedin.com/in/deboraocano/"
+                },
+                {
+                    "id":2,
+                    "icono": "fa-brands fa-square-github fa-2xl",
+                    "url": "https://github.com/IvonOcano"
+                },
+                {
+                    "id":3,
+                    "icono" : "fa-brands fa-facebook fa-2xl",
+                    "url": "https://www.facebook.com/ivon.ocano"
+                },
+                {
+                    "id":4,    
+                    "icono": "fa-brands fa-instagram fa-2xl",
+                    "url": "https://www.instagram.com/ivonocano/"
+            }
+   ],
+    "persona":[
+        {
+    "nombre": "Débora Ivon",
+    "apellido": "Ocaño",
+    "edad": 29,
+    "banner": "../assets/img/banner11.jpg", 
+    "titulo": "Full Stack Developer Jr",
+    "email": "ivonocano@outlook.com",
+    "password": "admin1admin"
+        }
+    ],
+    "sobremi": [
+        {    
+            "id":1,
+            "info": "Mi nombre es Débora Ivón Ocaño soy de Córdoba, Argentina tengo 29 años y actualmente me encuentro cursando la segunda etapa de Argentina Programa",
+            "imagen": "/assets/img/miperfil (2).jpg",
+            "fondo" : "/assets/img/banner2.jpg"
+        }
+
+    ],
+    "experiencia":[
+        {  
+            "id":1,
+            "puesto": "Cajera",
+            "inicio": 2013,
+            "fin": 2014,
+            "empresa": "Super Mami",
+            "tareas": "Apertura y cierre de caja, manejo de efectivo y conocimientos de caja y Posnet."
+        }
+    ],
+    "educacion": [
+        {
+            "id":1,
+            "institucion": "Dalmacio Vélez Sarsfield",
+            "inicio": "Marzo 2005",
+            "fin": "Diciembre 2010",
+            "especialidad": "Bachiller Orientado en Humanidades",
+            "estado": "Secundario Completo Finalizado"
+        }
+    ],
+    "cursos":[
+        {
+            "id":1,
+            "titulo": "JavaScript Esencial",
+            "descripcion": "Uso de variable y Contenedores de Datos, búsquedas de arreglos y conocimientos en el Dom y Bom.",
+            "fecha": 2021
+        },
+        {
+            "id":2,
+            "titulo": "HTML, CSS",
+            "descripcion": "Anidar elementos y Elementos vacíos, Anatomía de un documento HTML imágenes y Marcado de texto.",
+            "fecha": 2021 
+        },
+        {
+            "id":3,
+            "titulo": "Java",
+            "descripcion": "tipos de datos y variables, Estructuras selectivas y Estructuras repetitivas. En GitHub: Repositorios Remotos y Branches.",
+            "fecha": 2021 
+        },
+        {
+            "id":4,
+            "titulo": "Introducción a los Algoritmo y a la Programación",
+            "descripcion": "Tipos de datos y variables, Estructuras selectivas y repetitivas. Arreglos: Vectores y Matrices.",
+            "fecha": 2021
+        },
+        {
+            "id":5,
+            "titulo": "Introducción a la Ciberseguridad",
+            "descripcion": "Mejores prácticas cibernéticas, la seguridad cibernética, vulnerabilidades de red, privacidad y confidencialidad de los Datos.",
+            "fecha": 2022
+        },
+        {
+            "id":6,
+            "titulo": "Inglés Para Desarrollo de Software",
+            "descripcion": "Vocabulario básico de Programación y Empresarial.",
+            "fecha": 2021
+        },
+        {
+            "id":7,
+            "titulo": "Teletrabajo",
+            "descripcion": "Evolución del teletrabajo y las nuevas oportunidades laborales, desafío cerebrales y Desarrollo de competencias con Nuevas Herramientas de Comunicación.",
+            "fecha": 2020 
+        },
+        {
+            "id":8,
+            "titulo": "Dactilografía",
+            "descripcion": "Conocimientos del Sistema Video Graff.",
+            "fecha": 2012 
+        }
+
+    ],
+    "datopersonal":[
+        {
+
+            "nombreyapellido": "Débora Ivon Ocaño",
+            "domicilio": "Tinogasta 4990",
+            "barrio": "Ampliación Empalme",
+            "disponibilidad": "Full Time",
+            "estadocivil": "Soltera",
+            "fechanacimiento": "Córdoba, 26/02/1993",
+            "contacto": "3517417766(Celular personal)",
+            "alternativo": "3517027586(Hermano)",
+            "email": "ivonocano@outlook.com"
+        }
+    ],
+    "habilidades":[
+        {
+                "id":1,
+                "lenguaje": "HTML",
+                "porcentaje": 90
+                
+                },
+                {
+                "id":2,
+                "lenguaje": "CSS",
+                "porcentaje": 80
+                },
+                {
+                "id":3,
+                "lenguaje": "JavaScript",
+                "porcentaje": 45
+                },
+                {
+                "id":4,
+                "lenguaje": "Bootstrap",
+                "porcentaje": 70
+                } 
+    ]
+}

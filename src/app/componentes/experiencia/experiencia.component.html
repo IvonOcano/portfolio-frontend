@@ -1,0 +1,10 @@
+ <!--Experiencia-->
+ <section id="experiencia" class="experiencia" >
+  <h2>Experiencia Laboral</h2>
+  <ul *ngFor=" let experiencia of experiencias">
+    {{experiencia.puesto}}
+    {{experiencia.inicio}}-{{experiencia.fin}}
+    {{experiencia.empresa}}
+    {{experiencia.tareas}}
+  </ul>
+</section>

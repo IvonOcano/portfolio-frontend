@@ -1,0 +1,11 @@
+<!--Skills-->
+<!--Iteración sobre la variable de instancia y presentacion de datos mediante interpolación-->
+<section id="skill" class="skill">
+  <h2>Skills</h2>
+  <li *ngFor="let skills of skill">
+    <h3> {{skills.lenguaje}} </h3>
+    <span class="bar">  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" [style.width.%]="skills.porcentaje">{{skills.porcentaje}}
+    </div>
+    </span>
+  </li>
+</section>

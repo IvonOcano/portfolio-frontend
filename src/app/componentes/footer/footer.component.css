@@ -1,0 +1,14 @@
+/*--FOOTER--*/
+#footer{ 
+    background-color: #050004;
+    margin-top:1.25rem;
+    justify-content: center;
+    display: flex;
+  }
+  .datos-footer{
+    color:#fff;
+    text-align: center center;
+    padding-top: 0.313rem;
+    font-size: .9rem;
+    
+  }

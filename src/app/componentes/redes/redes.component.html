@@ -1,0 +1,15 @@
+<ul class="list-group list-group-horizontal">
+  <div *ngFor="let item of redes">
+    <li class="list-group-item">
+      <a [href]="item.url" class="linkedin">
+        <i [ngClass]="item.icono"></i>
+      </a>
+    </li>
+</div>
+<!-- Button trigger modal -->
+<li class="list-group-item">
+  <i class="fa-solid fa-user-lock fa-2xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    </i>
+</li>
+</ul>
+
