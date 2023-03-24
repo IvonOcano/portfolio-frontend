@@ -7,7 +7,7 @@ import { BehaviorSubject, map, Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthService {
-  url = 'http://localhost:8080/persona/login'; // Aquí se define la URL base de la API
+  url = 'https://portfolio-backend-ghx4.onrender.com/persona/login'; // Aquí se define la URL base de la API
   currentUserSubject: BehaviorSubject<any>;
 
   constructor(private http:HttpClient) {
