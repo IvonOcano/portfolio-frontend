@@ -7,7 +7,7 @@ import { Persona } from '../model/persona';
   providedIn: 'root'
 })
 export class PersonaService {
-url: string = 'https://portfolio-backend-ghx4.onrender.com/persona/'
+url = "portfolio-ivonocano.koyeb.app/persona/"
   constructor(private httpClient:HttpClient) { }
 
    // lista

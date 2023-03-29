@@ -7,7 +7,7 @@ import { Sobremi } from '../model/sobremi';
   providedIn: 'root'
 })
 export class SobremiService {
-  url= 'https://portfolio-backend-ghx4.onrender.com/sobremi/'
+  url= "portfolio-ivonocano.koyeb.app/sobremi/"
   constructor(private httpClient:HttpClient) { }
 
   // lista

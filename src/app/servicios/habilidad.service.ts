@@ -7,7 +7,7 @@ import { Habilidad } from '../model/habilidad';
   providedIn: 'root'
 })
 export class HabilidadService {
-  url= 'https://portfolio-backend-ghx4.onrender.com/habilidad/'
+  url= "portfolio-ivonocano.koyeb.app/habilidad/"
   constructor(private httpClient:HttpClient) { }
 
   public list(): Observable<Habilidad[]>{

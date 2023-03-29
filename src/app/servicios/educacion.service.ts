@@ -7,7 +7,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-  url= 'https://portfolio-backend-ghx4.onrender.com/educacion/'
+  url= "portfolio-ivonocano.koyeb.app/educacion/"
   constructor(private httpClient:HttpClient) { }
 
    // lista

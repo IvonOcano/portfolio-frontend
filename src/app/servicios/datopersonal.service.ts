@@ -7,7 +7,7 @@ import { Datopersonal } from '../model/datopersonal';
   providedIn: 'root'
 })
 export class DatopersonalService {
-  url= 'https://portfolio-backend-ghx4.onrender.com/datopersonal/'
+  url= "portfolio-ivonocano.koyeb.app/datopersonal/"
   constructor(private httpClient:HttpClient) { }
 
   public list(): Observable<Datopersonal[]>{

@@ -7,7 +7,7 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class ExperienciaService {
-   url= 'https://portfolio-backend-ghx4.onrender.com/experiencia/'
+   url= "portfolio-ivonocano.koyeb.app/experiencia/"
   constructor(private httpClient:HttpClient) { }
 
   public list(): Observable<Experiencia[]>{

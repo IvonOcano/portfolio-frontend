@@ -7,7 +7,8 @@ import { Red } from '../model/red';
   providedIn: 'root'
 })
 export class RedService {
-  url= 'https://portfolio-backend-ghx4.onrender.com/red/'
+  url= "portfolio-ivonocano.koyeb.app/red/"
+
   constructor(private httpClient:HttpClient) { }
 
   public list(): Observable<Red[]>{
