@@ -7,7 +7,7 @@ import { Sobremi } from '../model/sobremi';
   providedIn: 'root'
 })
 export class SobremiService {
-  url= "portfolio-ivonocano.koyeb.app/sobremi/"
+  url= "https://portfolio-ivonocano.koyeb.app/sobremi/"
   constructor(private httpClient:HttpClient) { }
 
   // lista

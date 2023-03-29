@@ -7,7 +7,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-  url= "portfolio-ivonocano.koyeb.app/educacion/"
+  url= "https://portfolio-ivonocano.koyeb.app/educacion/"
   constructor(private httpClient:HttpClient) { }
 
    // lista

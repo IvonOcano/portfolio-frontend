@@ -7,7 +7,7 @@ import { BehaviorSubject, map, Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthService {
-  url ="portfolio-ivonocano.koyeb.app/persona/login"; // Aquí se define la URL base de la API
+  url ="https://portfolio-ivonocano.koyeb.app/persona/login"; // Aquí se define la URL base de la API
   currentUserSubject: BehaviorSubject<any>;
 
   constructor(private http:HttpClient) {

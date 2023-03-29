@@ -7,7 +7,7 @@ import { Red } from '../model/red';
   providedIn: 'root'
 })
 export class RedService {
-  url= "portfolio-ivonocano.koyeb.app/red/"
+  url= "https://portfolio-ivonocano.koyeb.app/red/"
 
   constructor(private httpClient:HttpClient) { }
 

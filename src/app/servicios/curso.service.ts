@@ -7,7 +7,7 @@ import { Curso } from '../model/curso';
   providedIn: 'root'
 })
 export class CursoService {
-  url= "portfolio-ivonocano.koyeb.app/curso/"
+  url= "https://portfolio-ivonocano.koyeb.app/curso/"
   constructor(private httpClient:HttpClient) { }
 
   public list(): Observable<Curso[]>{
